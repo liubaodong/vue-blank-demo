@@ -8,10 +8,11 @@ module.exports = {
                 'views': '@/views',
                 'network': '@/network'
             }
-        }
+        },
+
     },
     // eslint 空格报错
     // eslint-disable-next-line
     // eslint-disable
-    lintOnSave: false
+    lintOnSave: false,
 }
