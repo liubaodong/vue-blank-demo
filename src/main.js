@@ -4,7 +4,9 @@ import router from './router/router'
 import store from './store/store'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import XLSX from 'xlsx';
 Vue.use(VueAxios, axios)
+Vue.use(XLSX)
 
 Vue.config.productionTip = false
 
